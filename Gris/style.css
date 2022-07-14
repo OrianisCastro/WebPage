@@ -1,0 +1,257 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0; 
+}
+body{
+    background-color:#fff;  
+}
+li, a, button{
+    font-family: 'Alice', serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 85px;
+    padding: 25px 10%;
+    background-color:	#da5162;
+    box-shadow: rgba(95, 91, 91, 0.35) 0px 5px 15px;
+    transition: top 0.5s;
+}
+.Logo{
+    cursor: pointer;
+    margin-right:auto;
+    height: 75px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 8px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s
+}
+.nav_links li a:hover{
+    color: #e7d0c1;
+}
+button{
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color:#abb16d ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s
+}
+button:hover{
+    background-color:#f7838d ;
+}
+.main1{
+    background-image: url(img/fondo\ de\ gris.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 580px;
+    display: flex;
+    align-items: center;
+}
+.titulo{
+    position: relative; left: 80px;
+    margin-top: 40px;
+    color: #fff;
+    font-size: 50px;
+    font-family: 'Alice', serif;
+    text-shadow: #000000 2px 2px;
+}
+.main3{
+    width: 100%;
+    height: 500px;
+    margin-bottom: 100px;
+    background-color:#fff;
+    display: flex;
+    justify-content: space-between;
+}
+.div1{
+    position: relative; left: 50px;
+    margin-top: 50px;
+    width: 460px;
+    height: 460px;  
+}
+.div1 img{
+    width: 450px; 
+    height: 450px;  
+}
+.div2{
+    width: 50%;
+    margin-top: 50px;
+    position: relative; right: 60px;
+    text-align: justify;
+}
+.div2 h1{
+    font-size: 40px;
+    font-family: 'Alice', serif;
+}
+.div2 p{
+    font-size: 20px;
+    font-family: 'Alice', serif;
+}
+.main4{
+    background-image: url(img/griss4.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 680px;
+    display: flex;
+    align-items: center;
+}
+
+.div3{
+    position: relative; top: -150px;
+    margin: 50px;
+    left: 15px;
+    font-size: 16px;
+    width: 580px;
+}
+.div3 h1{
+    font-size: 30px;
+    font-family: 'Alice', serif;
+    color: #fff;
+}
+.div3 p{
+    font-family:'Alice', serif;
+    color: #ffff;
+}
+.main5{
+    width: 100%;
+    height: 600px;
+    background-color:#fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.div4{
+    width: 50%;
+    margin-top: 50px;
+}
+.div4 h1{
+    font-size: 40px;
+    font-family: 'Alice', serif;
+}
+.div4 p{
+    font-size: 20px;
+    font-family: 'Alice', serif;
+}
+.div5{
+    width: 530px;
+    height: 530px;  
+}
+.div5 img{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 450px; 
+    height: 450px;
+}
+.downloads{
+    width: 100%;
+    height: 200px;
+    background-color: #e7d0c1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.boton2 {
+    padding: 15px 25px;
+    background-color: #f7838d;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    color: #ffff;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Alice', serif;
+}
+.boton2:hover {
+    background-color:#abb16d ;
+  }
+.boton2{
+    animation: zoom 4s alternate infinite;
+    
+}
+@keyframes zoom{
+    0%{
+        transform: scale(1);
+
+    }
+    50%{
+        transform: scale(1.1);
+    }
+    100%{
+        transform:scale(1);
+    }
+}
+  
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 250px;
+    background-repeat: no-repeat;
+    background-color: #da5162; 
+}
+.footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+.logo2{
+    height: 100px;
+}
+
+
+
+
+.footer .social img{
+    margin-top: 10px;
+    height: 40px;
+    width: auto;
+}
+.footer .social a{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 8px;
+    opacity: 0.75;
+    transition: 0.5s ease;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+    transform:scale(1.2)
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0%;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0%;
+    text-align: center; 
+}
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
